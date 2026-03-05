@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-st.set_page_config(page_title="Gestão Interna", layout="wide")
+st.set_page_config(page_title="Meu Dash", layout="wide")
 
 # Função para ler qualquer aba do Google Sheets
 def carregar_dados(gid):
