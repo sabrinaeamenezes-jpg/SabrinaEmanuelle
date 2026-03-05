@@ -10,7 +10,7 @@ def carregar_dados(gid):
     return pd.read_csv(url)
 
 # --- NAVEGAÇÃO POR ABAS ---
-aba1, aba2 = st.tabs(["🚫 Cancelamentos", "🤝 Reuniões Realizadas"])
+aba1, aba2 = st.tabs(["🚫 Cancelamentos", "🤝 Reuniões Realizadas","Reclamações"])
 
 # --- ABA 1: CANCELAMENTOS ---
 with aba1:
