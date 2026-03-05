@@ -1,4 +1,3 @@
-​<!-- end list -->
 import streamlit as st
 
 st.title("Meu Primeiro Dashboard")
